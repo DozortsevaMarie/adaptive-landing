@@ -1,0 +1,257 @@
+@media screen and (max-width: 1450px) {
+	.blog-img-desk-container{
+		height: 120px;
+		bottom: 25%;
+	}
+	.blog-img-desk{
+		font-size: 22px;
+		width: 33%;
+	}
+	.blog-desk-container{
+		margin-top: 25%;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+	.blog-img-desk-container{
+		bottom: 30%;
+	}
+}
+@media screen and (max-width: 1100px) {
+	.main-container{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.header-container{
+		grid-template-columns: 1fr 2fr 1fr;
+	}
+	.banner-latest{
+		width: 95%;
+	}
+	.banner-content-header{
+		font-size: 25px;
+		width: 200px;
+	}
+	.banner-bottom-text{
+		bottom: 15px;
+		left: 15px;
+		font-size: 12px;
+	}
+	.blog-img-desk{
+		font-size: 20px;
+		width: 45%;
+	}
+	.blog-img-desk-container{
+		bottom: 40%;
+		height: 100px;
+	}
+}
+@media screen and (max-width: 950px){
+	.main-logo{
+		width: 3rem;
+	}
+	.blog-img-desk-container{
+		bottom: 50%;
+		height: 90px;
+	}
+	.insta-item-desc{
+		font-size: 26px;
+	}
+}
+@media screen and (max-width: 900px){
+	.menu-bar{
+		display: flex;
+		
+		align-items: center;
+	}
+	
+	.header-nav, .main-logo{
+		display: none;
+	}
+	.menu-bar-icon{
+		font-size: 22px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.main-logo{
+		display: block;
+	}
+	.header-social-media{
+		display: none;
+	}
+	.header-container{
+		grid-template-columns: 1fr 10fr;
+		padding: 40px 0;
+	}
+	.banner-latest{
+		width: 160px;
+	}
+	.banner-content-header{
+		width:180px;
+		font-size: 18px;
+	}
+	.banner-bottom-text{
+		font-size: 10px;
+	}
+	/*.blog-img-desk{
+		width: 100px;
+		height: 90px;
+		font-size: 20px;
+	}*/
+	.blog-desk-container{
+		margin-top: 70px;
+		font-size: 14px;
+	}
+	.blog-img-desk-container{
+		bottom: 55%;
+	}
+	.insta{
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.insta-item-desc{
+		font-size: 28px;
+	}
+}
+@media screen and (max-width: 700px){
+	.banner-content-header{
+	font-size: 16px;
+	width: 180px;
+	}
+	.banner-latest{
+		width:120px;
+	}
+	.banner-bottom-text{
+		font-size: 13px;
+	}
+	.intro{
+		grid-template-columns: 1fr;
+		padding: 32px;
+	}
+	.blog-img-desk-container{
+		bottom: 60%;
+	}
+
+}
+@media screen and (max-width: 600px) {
+	.header-container{
+		grid-template-columns: 1fr 5fr;
+		padding: 30px 0;
+	}
+	.banner{
+		grid-template-columns: 1fr;
+	}
+	.banner-img{
+		width: 100%;
+	}
+	.banner-content{
+		padding-left: 0;
+		grid-template-columns: 1fr;
+		grid-template-areas: "header"
+		"latest"
+		"insta";
+		grid-gap: 8px 0;
+	}
+	.banner-content-header{
+		width: 100%;
+		margin-top: 30px;
+	}
+	.banner-latest{
+		width: 100%;
+	}
+	.banner-bottom-text{
+		bottom: 20px;
+		left: 25px;
+		font-size: 28px;
+	}
+	.subscribe-class{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.subscribe-btn{
+		margin-top: 20px;
+		width: 40%;
+		letter-spacing: normal;
+		padding: 10px 5px;
+		font-size: 13px;
+	}
+	.subscribe-header{
+		font-size: 26px;
+	}
+	.subscribe-input{
+		height: 40px;
+	}
+	.subscribe-mail{
+		width: 220px;
+	}
+	.blog{
+		grid-template-columns: 1fr;
+	}
+	.blog-item-desk{
+		width: 140px;
+		height: 120px;
+		font-size:24px;
+	}
+	.blog-img-desk{
+		width: 100%;
+	}
+	.blog-img-desk-container{
+		width: 150px;
+		height: 100px;
+		position: absolute;
+		left: 35%;
+		bottom: 17%;
+	}
+	.blog-desk-container{
+		margin-top: 70px;
+		font-size: 14px;
+	}
+	.insta-item-desc{
+		padding: 8px;
+		font-size: 22px;
+		text-align: center;
+	}
+	.insta-item{
+		padding: 16px;
+	}
+}
+
+
+@media screen and (max-width: 500px) {
+	.blog-img-desk-container{
+		width: 150px;
+		height: 100px;
+		position: absolute;
+		left: 32%;
+		bottom: 22%;
+	}
+}
+@media screen and (max-width: 450px) {
+	.blog-img-desk-container{
+		width: 150px;
+		height: 100px;
+		position: absolute;
+		left: 30%;
+		bottom: 28%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.blog-img-desk-container{
+		width: 150px;
+		height: 100px;
+		position: absolute;
+		left: 27%;
+		bottom: 35%;
+	}
+}
+@media screen and (max-width: 350px) {
+	.blog-img-desk-container{
+		width: 150px;
+		height: 80px;
+		position: absolute;
+		left: 20%;
+		bottom: 40%;
+	}
+}
